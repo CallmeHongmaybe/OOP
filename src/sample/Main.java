@@ -11,9 +11,6 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
-
-import java.util.concurrent.atomic.AtomicInteger;
-
 public class Main extends Application {
 
     // creating 3 states and a switch loop
@@ -41,17 +38,14 @@ public class Main extends Application {
         // make 3 circles
         Circle redLight = new Circle();
         redLight.setRadius(50);
-        redLight.setFill(Color.GRAY);
         redLight.relocate(100, 40);
 
         Circle yellowLight = new Circle();
         yellowLight.setRadius(50);
-        yellowLight.setFill(Color.GRAY);
         yellowLight.relocate(100, 160);
 
         Circle greenLight = new Circle();
         greenLight.setRadius(50);
-        greenLight.setFill(Color.GRAY);
         greenLight.relocate(100, 280);
 
 
